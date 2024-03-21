@@ -16,7 +16,6 @@ We start by defining the abstract class for a `Problem`; specific problem domain
 
 We also define a `Node` in a search tree, and some functions on nodes: `expand` to generate successors; `path_actions` and `path_states`  to recover aspects of the path from the node.
 """
-import copy
 
 # Commented out IPython magic to ensure Python compatibility.
 # %matplotlib inline
